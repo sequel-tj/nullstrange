@@ -1,2 +1,2 @@
 # nullstrange
- beat store
+beat store
