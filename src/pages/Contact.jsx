@@ -4,7 +4,7 @@ const Contact = () => {
         <div>
             <h3>CONTACT</h3>
             <div>
-                <img src="https://placehold.co/400x400" />
+                <img alt="img" src="https://placehold.co/400x400" />
             </div>
         </div>
     );

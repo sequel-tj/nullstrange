@@ -4,7 +4,7 @@ const About = () => {
         <div>
             <h3>ABOUT</h3>
             <div>
-                <img src="https://placehold.co/300x400" />
+                <img alt="img" src="https://placehold.co/300x400" />
             </div>
         </div>
     );
