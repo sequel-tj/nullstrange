@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nullstrange/static/css/main.41c73845.css",
+    "main.js": "/nullstrange/static/js/main.6d2712cc.js",
+    "index.html": "/nullstrange/index.html",
+    "main.41c73845.css.map": "/nullstrange/static/css/main.41c73845.css.map",
+    "main.6d2712cc.js.map": "/nullstrange/static/js/main.6d2712cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41c73845.css",
+    "static/js/main.6d2712cc.js"
+  ]
+}
