@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind&family=Montserrat:wght@700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Hind", sans-serif;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer {
+  margin: 0;
+}
+.footer__redes-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin: 20px auto;
+}
+.footer__redes-wrapper li {
+  display: inline-block;
+}
+.footer__redes-wrapper li:hover {
+  color: #a1a1a1;
+}
+.footer__redes-wrapper li:hover img {
+  background-color: #a1a1a1;
+}
+.footer__redes-wrapper img {
+  margin-right: 10px;
+  display: inline-block;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  vertical-align: text-bottom;
+}
+.footer__link {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: rem(18);
+}
+.footer__texto {
+  color: #a1a1a1;
+  text-align: center;
+}
+.separador {
+  background-color: #e0e0e0;
+  height: 2px;
+  max-width: 30px;
+  margin: 15px auto 20px;
+}
+.footer__redes-wrapper li,
+img {
+  transition: all ease 0.3s;
+}
