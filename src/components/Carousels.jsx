@@ -95,7 +95,7 @@ const youtubeDatas = [
 // console.log(youtubeDatas);
 
 const Carousels: React.FC = () => (
-    <div>
+    <div className='carousel-container'>
         <Carousel autoplay>
             <div>
                 <div style={contentStyle}>
