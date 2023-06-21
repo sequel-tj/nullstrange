@@ -1,15 +1,37 @@
 import React from 'react';
 import { Carousel } from 'antd';
 
+////////////////////////////////////////////////
 const contentStyle: React.CSSProperties = {
-  height: '600px',
-  color: '#fff',
-  lineHeight: '160px',
-  textAlign: 'center',
-  paddingTop: '26px',
-//   background: '#364d79',
-    background: '#000',
+    width: '80%',
+    margin: 'auto',
+    paddingTop: '50px',
+    height: '600px',
+    color: '#fff',
+    textAlign: 'center',
+    background: 'black',
+    borderRadius: '10px',
 };
+
+const CarouselSection: React.CSSProperties = {
+    width: '100%',
+    height: '100vh',
+    background: 'black',
+    display: 'flex',
+    justifyContent: 'center',
+    flexDirection: 'column',
+    zIndex: '0',
+};
+
+const embedVideoCarousel: React.CSSProperties = {
+    width: '70%',
+    height: '90%',
+    borderRadius: '5px',
+    border: '1px solid rgba(255,255,255,0.6)',
+    // boxShadow: '#363f53 4px 3px 25px 4px',
+    boxShadow: 'rgba(108, 69, 101, 0.8) 3px 2px 15px 5px',
+};
+////////////////////////////////////////////////
 
 const youtubeDatas = [
     {
@@ -95,34 +117,26 @@ const youtubeDatas = [
 // console.log(youtubeDatas);
 
 const Carousels: React.FC = () => (
-    <div className='carousel-container'>
+    <div style={CarouselSection}>
         <Carousel autoplay>
             <div>
                 <div style={contentStyle}>
-                    {/* <h2>{youtubeDatas[0].title}</h2> */}
-                    {/* <p>{youtubeDatas[0].desc}</p> */}
-                    <iframe width="80%" height="550px" title={youtubeDatas[0].title} src={youtubeDatas[0].videoURL} allow="accelerometer; picture-in-picture; web-share; allowfullscreen"></iframe>
+                    <iframe style={embedVideoCarousel} title={youtubeDatas[0].title} src={youtubeDatas[0].videoURL} allow="accelerometer; picture-in-picture; web-share; allowfullscreen"></iframe>
                 </div>
             </div>
             <div>
                 <div style={contentStyle}>
-                    {/* <h2>{youtubeDatas[1].title}</h2> */}
-                    {/* <p>{youtubeDatas[1].desc}</p> */}
-                    <iframe width="80%" height="550px" title={youtubeDatas[1].title} src={youtubeDatas[1].videoURL} allow="accelerometer; picture-in-picture; web-share; allowfullscreen"></iframe>
+                    <iframe style={embedVideoCarousel} title={youtubeDatas[1].title} src={youtubeDatas[1].videoURL} allow="accelerometer; picture-in-picture; web-share; allowfullscreen"></iframe>
                 </div>
             </div>
             <div>
                 <div style={contentStyle}>
-                    {/* <h2>{youtubeDatas[2].title}</h2> */}
-                    {/* <p>{youtubeDatas[2].desc}</p> */}
-                    <iframe width="80%" height="550px" title={youtubeDatas[2].title} src={youtubeDatas[2].videoURL} allow="accelerometer; picture-in-picture; web-share; allowfullscreen"></iframe>
+                    <iframe style={embedVideoCarousel} title={youtubeDatas[2].title} src={youtubeDatas[2].videoURL} allow="accelerometer; picture-in-picture; web-share; allowfullscreen"></iframe>
                 </div>
             </div>
             <div>
                 <div style={contentStyle}>
-                    {/* <h2>{youtubeDatas[3].title}</h2> */}
-                    {/* <p>{youtubeDatas[3].desc}</p> */}
-                    <iframe width="80%" height="550px" title={youtubeDatas[3].title} src={youtubeDatas[3].videoURL} allow="accelerometer; picture-in-picture; web-share; allowfullscreen"></iframe>
+                    <iframe style={embedVideoCarousel} title={youtubeDatas[3].title} src={youtubeDatas[3].videoURL} allow="accelerometer; picture-in-picture; web-share; allowfullscreen"></iframe>
                 </div>
             </div>
         </Carousel>

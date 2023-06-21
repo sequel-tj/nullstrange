@@ -1,6 +1,7 @@
 import React from "react";
-import "./Intro.css";
+import "../components/Intro.css";
 import DisabledContext from "antd/es/config-provider/DisabledContext";
+
 const Intro = () => {
   return (
     <div className="container">
