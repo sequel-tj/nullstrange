@@ -5,7 +5,6 @@ import { Carousel } from 'antd';
 const contentStyle: React.CSSProperties = {
     width: '80%',
     margin: 'auto',
-    paddingTop: '50px',
     height: '600px',
     color: '#fff',
     textAlign: 'center',
@@ -23,13 +22,23 @@ const CarouselSection: React.CSSProperties = {
     zIndex: '0',
 };
 
+const headerCarousel: React.CSSProperties = {
+    width: '400px',
+    margin: 'auto',
+    textAlign: 'center',
+    fontSize: '2.7rem',
+    background: 'white',
+    color: 'black',
+    boxShadow: 'rgb(28 94 138) 0px 0px 25px 5px',
+};
+
 const embedVideoCarousel: React.CSSProperties = {
     width: '70%',
-    height: '90%',
+    height: '85%',
     borderRadius: '5px',
     border: '1px solid rgba(255,255,255,0.6)',
-    // boxShadow: '#363f53 4px 3px 25px 4px',
-    boxShadow: 'rgba(108, 69, 101, 0.8) 3px 2px 15px 5px',
+    // boxShadow: 'rgba(108, 69, 101, 0.8) 3px 2px 15px 5px',
+    boxShadow: '#ffffffab 2px 4px 25px 0px',
 };
 ////////////////////////////////////////////////
 
@@ -117,7 +126,9 @@ const youtubeDatas = [
 // console.log(youtubeDatas);
 
 const Carousels: React.FC = () => (
+    <>
     <div style={CarouselSection}>
+    <h1 style={headerCarousel}>Some of my works</h1>
         <Carousel autoplay>
             <div>
                 <div style={contentStyle}>
@@ -141,6 +152,7 @@ const Carousels: React.FC = () => (
             </div>
         </Carousel>
     </div>
+    </>  
 );
 
 export default Carousels;
