@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/nullstrange/static/css/main.2e9af235.css",
-    "main.js": "/nullstrange/static/js/main.dd18039e.js",
+    "main.css": "/nullstrange/static/css/main.cb8db587.css",
+    "main.js": "/nullstrange/static/js/main.c17b4ff6.js",
+    "static/media/services2.jpg": "/nullstrange/static/media/services2.b23ace66b7da8fe51815.jpg",
+    "static/media/services1.webp": "/nullstrange/static/media/services1.32173e9c0b83ce8f38fc.webp",
+    "static/media/services3.webp": "/nullstrange/static/media/services3.484c0b474aa5d5395a87.webp",
+    "static/media/instagram.png": "/nullstrange/static/media/instagram.b4ff9be06a8f84fada1b.png",
+    "static/media/social.png": "/nullstrange/static/media/social.d675c2f47a7f9a340ada.png",
+    "static/media/youtube.png": "/nullstrange/static/media/youtube.0b7c86fba1fbc433f761.png",
+    "static/media/email.png": "/nullstrange/static/media/email.9d4fb065e6679439a9a3.png",
     "index.html": "/nullstrange/index.html",
-    "main.2e9af235.css.map": "/nullstrange/static/css/main.2e9af235.css.map",
-    "main.dd18039e.js.map": "/nullstrange/static/js/main.dd18039e.js.map"
+    "main.cb8db587.css.map": "/nullstrange/static/css/main.cb8db587.css.map",
+    "main.c17b4ff6.js.map": "/nullstrange/static/js/main.c17b4ff6.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e9af235.css",
-    "static/js/main.dd18039e.js"
+    "static/css/main.cb8db587.css",
+    "static/js/main.c17b4ff6.js"
   ]
 }
