@@ -1,0 +1,10 @@
+:where(.css-dev-only-do-not-override-1wazalj).ant-carousel .slick-dots li.slick-active button {
+    background: #000;
+    opacity: 1;
+    width: 25px;
+}
+
+:where(.css-dev-only-do-not-override-1wazalj).ant-carousel .slick-dots li button {
+    background: #fff;
+    opacity: 0.7;
+}

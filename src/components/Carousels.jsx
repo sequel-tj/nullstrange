@@ -8,14 +8,14 @@ const contentStyle: React.CSSProperties = {
     height: '600px',
     color: '#fff',
     textAlign: 'center',
-    background: 'black',
+    // background: '#ffffffcd',
     borderRadius: '10px',
 };
 
 const CarouselSection: React.CSSProperties = {
     width: '100%',
     height: '100vh',
-    background: 'black',
+    background: '#ffffff7d',
     display: 'flex',
     justifyContent: 'center',
     flexDirection: 'column',
@@ -29,16 +29,19 @@ const headerCarousel: React.CSSProperties = {
     fontSize: '2.7rem',
     background: 'white',
     color: 'black',
-    boxShadow: 'rgb(28 94 138) 0px 0px 25px 5px',
+    boxShadow: 'rgb(191 81 172 / 80%) 0px 0px 25px 0px',
+    // boxShadow: 'rgb(28 94 138) 0px 0px 25px 5px',
+    borderRadius: '15px',
 };
 
 const embedVideoCarousel: React.CSSProperties = {
     width: '70%',
     height: '85%',
+    marginTop: '10px',
     borderRadius: '5px',
-    border: '1px solid rgba(255,255,255,0.6)',
-    // boxShadow: 'rgba(108, 69, 101, 0.8) 3px 2px 15px 5px',
-    boxShadow: '#ffffffab 2px 4px 25px 0px',
+    border: '0px solid rgba(255,255,255,0.6)',
+    // boxShadow: 'rgb(191 81 172 / 80%) 0px 0px 25px 0px',
+    boxShadow: 'rgb(28 94 138/ 80%) 0px 0px 15px 6px',
 };
 ////////////////////////////////////////////////
 
