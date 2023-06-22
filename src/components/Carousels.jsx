@@ -15,7 +15,8 @@ const contentStyle: React.CSSProperties = {
 const CarouselSection: React.CSSProperties = {
     width: '100%',
     height: '100vh',
-    background: '#ffffff7d',
+    // background: '#ffffff7d',
+    background: '#0000007d',
     display: 'flex',
     justifyContent: 'center',
     flexDirection: 'column',
@@ -29,7 +30,7 @@ const headerCarousel: React.CSSProperties = {
     fontSize: '2.7rem',
     background: 'white',
     color: 'black',
-    boxShadow: 'rgb(191 81 172 / 80%) 0px 0px 25px 0px',
+    boxShadow: 'rgb(228 69 200 / 80%) 0px 0px 25px 0px',
     // boxShadow: 'rgb(28 94 138) 0px 0px 25px 5px',
     borderRadius: '15px',
 };
