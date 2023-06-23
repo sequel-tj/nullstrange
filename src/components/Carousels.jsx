@@ -3,45 +3,54 @@ import { Carousel } from 'antd';
 
 ////////////////////////////////////////////////
 const contentStyle: React.CSSProperties = {
-    width: '80%',
+    width: '70%',
     margin: 'auto',
-    height: '600px',
-    color: '#fff',
+    aspectRatio: '16/8',
     textAlign: 'center',
-    // background: '#ffffffcd',
     borderRadius: '10px',
 };
 
-const CarouselSection: React.CSSProperties = {
+const carouselSection: React.CSSProperties = {
+    position: 'relative',
     width: '100%',
     height: '100vh',
-    // background: '#ffffff7d',
     background: '#0000007d',
+    // background: '#ffffff5a',
     display: 'flex',
     justifyContent: 'center',
+    alignItems: 'center',
+    // zIndex: '10',
+    overflow: 'hidden',
+};
+
+const carouselContainer: React.CSSProperties = {
+    width: '100%',
+    height: '90%',
+    display: 'flex',
     flexDirection: 'column',
-    zIndex: '0',
+    justifyContent: 'space-evenly',
+
 };
 
 const headerCarousel: React.CSSProperties = {
-    width: '400px',
-    margin: 'auto',
-    textAlign: 'center',
-    fontSize: '2.7rem',
+    width: '30rem',
+    margin: '0 auto',
+    fontSize: '3rem',
     background: 'white',
     color: 'black',
-    boxShadow: 'rgb(228 69 200 / 80%) 0px 0px 25px 0px',
-    // boxShadow: 'rgb(28 94 138) 0px 0px 25px 5px',
+    textAlign: 'center',
     borderRadius: '15px',
+    // boxShadow: '#0000003a 5px 5px 15px',
+    boxShadow: 'rgb(228 69 200 / 80%) 0px 0px 25px 0px',
 };
 
 const embedVideoCarousel: React.CSSProperties = {
-    width: '70%',
-    height: '85%',
-    marginTop: '10px',
+    width: '90%',
+    height: '90%',
+    minHeight: '500px',
     borderRadius: '5px',
+    margin: '2rem 0 0 0',
     border: '0px solid rgba(255,255,255,0.6)',
-    // boxShadow: 'rgb(191 81 172 / 80%) 0px 0px 25px 0px',
     boxShadow: 'rgb(28 94 138/ 80%) 0px 0px 15px 6px',
 };
 ////////////////////////////////////////////////
@@ -130,33 +139,33 @@ const youtubeDatas = [
 // console.log(youtubeDatas);
 
 const Carousels: React.FC = () => (
-    <>
-    <div style={CarouselSection}>
-    <h1 style={headerCarousel}>Some of my works</h1>
-        <Carousel autoplay>
-            <div>
-                <div style={contentStyle}>
-                    <iframe style={embedVideoCarousel} title={youtubeDatas[0].title} src={youtubeDatas[0].videoURL} allow="accelerometer; picture-in-picture; web-share; allowfullscreen"></iframe>
+    <div style={carouselSection}>
+        <div className='carouselContainer' style={carouselContainer}>
+            <h1 style={headerCarousel}>SOME OF MY WORKS</h1>
+            <Carousel autoplay>
+                <div>
+                    <div style={contentStyle}>
+                        <iframe style={embedVideoCarousel} title={youtubeDatas[0].title} src={youtubeDatas[0].videoURL} allow="accelerometer; picture-in-picture; web-share; allowfullscreen"></iframe>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <div style={contentStyle}>
-                    <iframe style={embedVideoCarousel} title={youtubeDatas[1].title} src={youtubeDatas[1].videoURL} allow="accelerometer; picture-in-picture; web-share; allowfullscreen"></iframe>
+                <div>
+                    <div style={contentStyle}>
+                        <iframe style={embedVideoCarousel} title={youtubeDatas[1].title} src={youtubeDatas[1].videoURL} allow="accelerometer; picture-in-picture; web-share; allowfullscreen"></iframe>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <div style={contentStyle}>
-                    <iframe style={embedVideoCarousel} title={youtubeDatas[2].title} src={youtubeDatas[2].videoURL} allow="accelerometer; picture-in-picture; web-share; allowfullscreen"></iframe>
+                <div>
+                    <div style={contentStyle}>
+                        <iframe style={embedVideoCarousel} title={youtubeDatas[2].title} src={youtubeDatas[2].videoURL} allow="accelerometer; picture-in-picture; web-share; allowfullscreen"></iframe>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <div style={contentStyle}>
-                    <iframe style={embedVideoCarousel} title={youtubeDatas[3].title} src={youtubeDatas[3].videoURL} allow="accelerometer; picture-in-picture; web-share; allowfullscreen"></iframe>
+                <div>
+                    <div style={contentStyle}>
+                        <iframe style={embedVideoCarousel} title={youtubeDatas[3].title} src={youtubeDatas[3].videoURL} allow="accelerometer; picture-in-picture; web-share; allowfullscreen"></iframe>
+                    </div>
                 </div>
-            </div>
-        </Carousel>
+            </Carousel>
+        </div>
     </div>
-    </>  
 );
 
 export default Carousels;

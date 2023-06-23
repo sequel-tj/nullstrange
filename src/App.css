@@ -7,8 +7,21 @@
 :where(.css-dev-only-do-not-override-1wazalj).ant-carousel .slick-dots li button {
     background: #fff;
     opacity: 0.3;
+    height: 5px;
 }
 
 :where(.css-dev-only-do-not-override-1wazalj).ant-carousel .slick-dots-bottom {
-    bottom: 30px;
+    position: relative;
+    top: 2rem;
+    bottom: unset;
+}
+
+:where(.css-dev-only-do-not-override-1wazalj).ant-carousel {
+    /* width: 100%;
+    height: 80%; */
+}
+
+:where(.css-dev-only-do-not-override-1wazalj).ant-carousel .slick-slider {
+    /* width: 100%;
+    height: 100%; */
 }
