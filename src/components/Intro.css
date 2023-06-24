@@ -1,15 +1,20 @@
-.container {
+/* body {
   background-image: url("https://images.unsplash.com/photo-1516223725307-6f76b9ec8742?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwyN3x8QXVkaW8lMjBQcm9kdWN0aW9ufGVufDB8fHx8MTY4Njg1OTE5MXww&ixlib=rb-4.0.3&q=80&w=1080");
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.6);
-  background-blend-mode: darken;
-  background-position: 50% 20%;
+  background-blend-mode: lighten;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
+  background: fixed;
+} */
+
+.container {
+  height: 100vh;
+  background-position: 50% 20%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  display: flex;
 }
 .container h1 {
   color: white;

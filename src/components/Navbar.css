@@ -1,5 +1,5 @@
 .navbar-container {
-  background-color: rgba(17,17,17,1);
+  background-color: rgba(17, 17, 17, 0.73);
   position: fixed;
   width: 100%;
   top: 0;
@@ -8,7 +8,7 @@
   overflow: hidden;
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   z-index: 50;
 }
 
@@ -36,7 +36,7 @@
   padding: 0;
   margin: 0;
   top: 0;
-  background-color: #111;
+  /* background-color: #111; */
 }
 
 .navbar ul li {
@@ -65,4 +65,3 @@
   /* box-shadow: #2455bd 0px 0px 5px 2px; */
   box-shadow: rgba(150, 82, 137, 0.8) 0px 0px 5px 2px;
 }
-
