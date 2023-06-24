@@ -50,7 +50,7 @@ const embedVideoCarousel: React.CSSProperties = {
   borderRadius: "5px",
   margin: "2rem 0 0 0",
   border: "0px solid rgba(255,255,255,0.6)",
-  boxShadow: "rgb(28 94 138/ 80%) 0px 0px 15px 6px",
+  boxShadow: "rgb(95 37 80 / 69%) 0px 0px 25px 0px",
 };
 ////////////////////////////////////////////////
 
