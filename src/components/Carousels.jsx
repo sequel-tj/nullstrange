@@ -3,9 +3,10 @@ import { Carousel } from "antd";
 
 ////////////////////////////////////////////////
 const contentStyle: React.CSSProperties = {
-  width: "70%",
-  margin: "auto",
-  aspectRatio: "16/8",
+  width: "60%",
+  height: '500px',
+  margin: "3.5rem auto 2.5rem auto",
+  // aspectRatio: "16/9",
   textAlign: "center",
   borderRadius: "10px",
 };
@@ -14,7 +15,7 @@ const carouselSection: React.CSSProperties = {
   position: "relative",
   width: "100%",
   height: "100vh",
-  //   background: "#0000007d",
+  background: 'rgba(0,0,0,0.75)',
   // background: '#ffffff5a',
   display: "flex",
   justifyContent: "center",
@@ -26,31 +27,34 @@ const carouselSection: React.CSSProperties = {
 const carouselContainer: React.CSSProperties = {
   width: "100%",
   height: "90%",
+  margin: '5rem 0 0 0',
   display: "flex",
   flexDirection: "column",
-  justifyContent: "space-evenly",
+  // justifyContent: "space-around",
 };
 
 const headerCarousel: React.CSSProperties = {
-  width: "30rem",
+  width: "31rem",
   margin: "0 auto",
-  fontSize: "3rem",
-  background: "rgb(0,0,0,.6)",
+  padding: '0.3rem 0',
+  fontSize: "2rem",
+  background: "rgb(0,0,0,1)",
   color: "white",
   textAlign: "center",
   borderRadius: "15px",
-  // boxShadow: '#0000003a 5px 5px 15px',
-  boxShadow: "rgb(95 37 80 / 69%) 0px 0px 25px 0px",
+  boxShadow: '#4152bbe0 0px 0px 20px',
+  // boxShadow: "rgb(95 37 80 / 69%) 0px 0px 25px 2px",
 };
 
 const embedVideoCarousel: React.CSSProperties = {
-  width: "90%",
-  height: "90%",
+  width: "100%",
+  height: "100%",
   minHeight: "500px",
   borderRadius: "5px",
-  margin: "2rem 0 0 0",
-  border: "0px solid rgba(255,255,255,0.6)",
-  boxShadow: "rgb(95 37 80 / 69%) 0px 0px 25px 0px",
+  margin: "0rem 0 0 0",
+  border: "1px solid rgba(255,255,255,0.6)",
+  // boxShadow: "rgb(95 37 80 / 69%) 0px 0px 25px 0px",
+  // boxShadow: '#ffffff3a 0px 0px 15px',
 };
 ////////////////////////////////////////////////
 
@@ -143,7 +147,7 @@ const youtubeDatas = [
 const Carousels: React.FC = () => (
   <div style={carouselSection}>
     <div className="carouselContainer" style={carouselContainer}>
-      <h1 style={headerCarousel}>SOME OF MY WORKS</h1>
+      <h1 style={headerCarousel}>SOME OF MY YOUTUBE VIDEOS</h1>
       <Carousel autoplay>
         <div>
           <div style={contentStyle}>

@@ -10,6 +10,7 @@ const servicesSection: React.CSSProperties = {
   alignItems: "center",
   overflow: "hidden",
   // border: '1px solid red',
+  background: "rgb(255, 255, 255, 0.2)",
 };
 
 const serviceContainer: React.CSSProperties = {
@@ -23,15 +24,17 @@ const serviceContainer: React.CSSProperties = {
 };
 
 const servicesHeader: React.CSSProperties = {
-  width: "21rem",
-  fontSize: "50px",
+  width: "18rem",
+  fontSize: "2rem",
+  padding: '0.3rem 0',
   // fontSize: "3rem",
-  background: "rgb(0,0,0,.6)",
+  background: "rgb(0,0,0,1)",
   color: "white",
   textAlign: "center",
   borderRadius: "15px",
-  // boxShadow: '#0000003a 5px 5px 15px',
-  boxShadow: "rgb(95 37 80 / 69%) 0px 0px 25px 0px",
+  boxShadow: '#000000aa 0px 0px 20px 2px',
+  // boxShadow: "rgb(95 37 80 / 69%) 0px 0px 25px 0px",
+  // boxShadow: '#4152bbe0 0px 0px 20px',
 };
 
 const servicesFlexbox: React.CSSProperties = {
@@ -47,10 +50,12 @@ const servicesCard: React.CSSProperties = {
   padding: "10px",
   width: "400px",
   height: "500px",
-  background: "rgb(0 0 0 / 73%)",
-  border: "1px solid white",
+  background: "rgb(20 20 20 / 95%)",
+  // border: "1px solid white",
   overflow: "hidden",
-  boxShadow: "#ffffff3a 5px 5px 15px",
+  // boxShadow: "#ffffff3a 5px 5px 15px",
+  boxShadow: '#000000aa 5px 5px 20px 2px',
+  borderRadius: '12px',
 };
 
 const servicesImg: React.CSSProperties = {};
@@ -59,7 +64,7 @@ const Services = () => {
   return (
     <div className="servicesContainer" style={servicesSection}>
       <div className="serviceContainer" style={serviceContainer}>
-        <h1 style={servicesHeader}>OUR SERVICES</h1>
+        <h1 style={servicesHeader}>SERVICES</h1>
 
         <div className="servicesFlexbox" style={servicesFlexbox}>
           <div className="services" style={servicesCard}>

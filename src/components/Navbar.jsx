@@ -7,7 +7,8 @@ const Navbar = () => {
     return (
         <div className='navbar-container'>
             <div className='navbar'>
-                <h1>NullStrange</h1>
+                {/* <h1>NullStrange</h1> */}
+                <img width={"180px"} height={"auto"} src={require("../images/nullstrange_logo.png")} alt="NullStrange" />
                 <ul>
                     <li>
                         <Link className='active' to="/">HOME</Link>

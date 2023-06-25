@@ -1,16 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Hind&family=Montserrat:wght@700&display=swap");
-
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-body {
-  font-family: "Hind", sans-serif;
-  color: #ffffff;
-  /* background-color: #000000; */
 }
 
 a {
@@ -19,6 +12,8 @@ a {
 }
 .footer {
   margin: 0;
+  padding: 1rem;
+  background-color: black;
 }
 .footer__redes-wrapper {
   display: flex;
@@ -35,7 +30,7 @@ a {
   color: #a1a1a1;
 }
 .footer__redes-wrapper li:hover img {
-  background-color: #a1a1a1;
+  /* background-color: #a1a1a1; */
 }
 .footer__redes-wrapper img {
   margin-right: 10px;
