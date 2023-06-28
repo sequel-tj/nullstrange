@@ -1,21 +1,21 @@
 {
-  "files": {
-    "main.css": "/nullstrange/static/css/main.2474ebb4.css",
-    "main.js": "/nullstrange/static/js/main.3babff5b.js",
-    "static/media/services2.jpg": "/nullstrange/static/media/services2.b23ace66b7da8fe51815.jpg",
-    "static/media/services1.webp": "/nullstrange/static/media/services1.32173e9c0b83ce8f38fc.webp",
-    "static/media/services3.webp": "/nullstrange/static/media/services3.484c0b474aa5d5395a87.webp",
-    "static/media/nullstrange_logo.png": "/nullstrange/static/media/nullstrange_logo.01a11cf32a3e6dc1f195.png",
-    "static/media/instagram.png": "/nullstrange/static/media/instagram.b4ff9be06a8f84fada1b.png",
-    "static/media/social.png": "/nullstrange/static/media/social.d675c2f47a7f9a340ada.png",
-    "static/media/youtube.png": "/nullstrange/static/media/youtube.0b7c86fba1fbc433f761.png",
-    "static/media/email.png": "/nullstrange/static/media/email.9d4fb065e6679439a9a3.png",
-    "index.html": "/nullstrange/index.html",
-    "main.2474ebb4.css.map": "/nullstrange/static/css/main.2474ebb4.css.map",
-    "main.3babff5b.js.map": "/nullstrange/static/js/main.3babff5b.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.2474ebb4.css",
-    "static/js/main.3babff5b.js"
-  ]
+  "main.css": "/nullstrange/static/css/main.f2cf50a3.chunk.css",
+  "main.js": "/nullstrange/static/js/main.04342d9a.chunk.js",
+  "main.js.map": "/nullstrange/static/js/main.04342d9a.chunk.js.map",
+  "runtime~main.js": "/nullstrange/static/js/runtime~main.d1e88006.js",
+  "runtime~main.js.map": "/nullstrange/static/js/runtime~main.d1e88006.js.map",
+  "static/js/2.b945f8ce.chunk.js": "/nullstrange/static/js/2.b945f8ce.chunk.js",
+  "static/js/2.b945f8ce.chunk.js.map": "/nullstrange/static/js/2.b945f8ce.chunk.js.map",
+  "index.html": "/nullstrange/index.html",
+  "precache-manifest.9096fee8235108389a422c37f7b9b902.js": "/nullstrange/precache-manifest.9096fee8235108389a422c37f7b9b902.js",
+  "service-worker.js": "/nullstrange/service-worker.js",
+  "static/css/main.f2cf50a3.chunk.css.map": "/nullstrange/static/css/main.f2cf50a3.chunk.css.map",
+  "static/media/email.png": "/nullstrange/static/media/email.f1125605.png",
+  "static/media/instagram.png": "/nullstrange/static/media/instagram.344fea7e.png",
+  "static/media/nullstrange_logo.png": "/nullstrange/static/media/nullstrange_logo.30928047.png",
+  "static/media/services1.webp": "/nullstrange/static/media/services1.9186b318.webp",
+  "static/media/services2.jpg": "/nullstrange/static/media/services2.408b0675.jpg",
+  "static/media/services3.webp": "/nullstrange/static/media/services3.437ea127.webp",
+  "static/media/social.png": "/nullstrange/static/media/social.9507a5d0.png",
+  "static/media/youtube.png": "/nullstrange/static/media/youtube.4aa43a7d.png"
 }
