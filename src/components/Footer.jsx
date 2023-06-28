@@ -1,3 +1,4 @@
+import React from "react";
 import "./Footer.css";
 
 const Footer = () => {
@@ -11,7 +12,7 @@ const Footer = () => {
                 href="https://twitter.com/saranshSCS"
                 target="_blank"
                 class="footer__link"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 <img alt="img" src={require("../images/twitter-sign.png")} />
                 twitter
@@ -22,7 +23,7 @@ const Footer = () => {
                 href="https://open.spotify.com/artist/6VNdlOegPizz5bD6mN54EO?si=HEuS52WUQNu1Hkmu6CC1mA"
                 target="_blank"
                 class="footer__link"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 <img alt="img" src={require("../images/social.png")} />
                 spotify
@@ -33,7 +34,7 @@ const Footer = () => {
                 href="https://www.instagram.com/nullstrange/"
                 target="_blank"
                 class="footer__link"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 <img alt="img" src={require("../images/instagram.png")} />
                 instagram
@@ -44,7 +45,7 @@ const Footer = () => {
                 href="https://youtube.com/@NullStrange"
                 target="_blank"
                 class="footer__link"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 <img alt="img" src={require("../images/youtube.png")} />
                 youtube
@@ -55,7 +56,7 @@ const Footer = () => {
                 href="mailto:nullstrange01@gmail.com"
                 target="_blank"
                 class="footer__link"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 <img alt="img" src={require("../images/email.png")} />
                 e-mail
