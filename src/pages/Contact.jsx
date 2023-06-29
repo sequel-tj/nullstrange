@@ -7,6 +7,8 @@ const Contact = () => {
     const [emailSelected, setEmailSelected] = useState('none');
     const [messageSelected, setMessageSelected] = useState('none');
     const [submitBtnClicked, setSubmitBtnClicked] = useState('3px solid var(--danger)');
+    const [submitBtnColor, setSubmitBtnColor] = useState('var(--danger)');
+    const [submitBtnbackgroundColor, setSubmitBtnbackgroundColor] = useState('rgb( 0 0 0 / 0%)');
 
     const formSection: React.CSSProperties = {
         width: '100%',
@@ -42,11 +44,15 @@ const Contact = () => {
     const submitBtn: React.CSSProperties = {
         width: '90px',
         height: '40px',
-        background: '#F5F5F5',
+        background: '#ffffff',
         fontWeight: '500',
         fontSize: '20px',
         borderRadius: '5px',
         border: 'none', 
+        boxShadow: 'var(--danger) 0px 0px 15px',
+        outline: `${submitBtnClicked}`,
+        color: `${submitBtnColor}`,
+        backgroundColor: `${submitBtnbackgroundColor}`,
     };
 
     const form = useRef();
@@ -67,15 +73,15 @@ const Contact = () => {
         // <div style={{width: '100%', height: '100vh',}}>
         <div style={formSection}>
             <form style={formContainer} ref={form} onSubmit={sendEmail}>
-                <h2 style={{ color: 'white', fontSize: '31px', }} >CONTACT ME</h2>
+                <h2 style={{ color: 'white', fontSize: '31px', }} >CONTACT ME <span>😀</span></h2>
 
-                <input style={{ ...contactInput, height: '40px', outline: `${nameSelected}`, }} onFocus={() => { setNameSelected('3px solid var(--primary)'); setEmailSelected('none'); setMessageSelected('none');}} placeholder="Name" type="text" name="user_name" />
+                <input style={{ ...contactInput, height: '40px', outline: `${nameSelected}`, }} onFocus={() => { setNameSelected('3px solid var(--primary)'); setEmailSelected('none'); setMessageSelected('none');}} placeholder="Name" type="text" autoComplete='off' name="user_name" />
 
-                <input style={{ ...contactInput, height: '40px', outline: `${emailSelected}`, }} onFocus={() => { setEmailSelected('3px solid var(--primary)'); setNameSelected('none'); setMessageSelected('none');}} placeholder="Email" type="email" name="user_email" />
+                <input style={{ ...contactInput, height: '40px', outline: `${emailSelected}`, }} onFocus={() => { setEmailSelected('3px solid var(--primary)'); setNameSelected('none'); setMessageSelected('none');}} autoComplete='off' placeholder="Email" type="email" name="user_email" />
 
                 <textarea style={{ ...contactInput, height: '150px', overflow: 'auto', overflowX: 'hidden', outline: `${messageSelected}`, }} onFocus={() => { setMessageSelected('3px solid var(--primary)'); setEmailSelected('none'); setNameSelected('none');}} placeholder="Message" name="message" />
 
-                <input style={{ ...submitBtn, outline: `${submitBtnClicked}`, }} onMouseEnter={() => { setSubmitBtnClicked('3px solid var(--success)'); setNameSelected('none'); setEmailSelected('none'); setMessageSelected('none'); }} onMouseLeave={() => { setSubmitBtnClicked('3px solid var(--danger)') }} type="submit" value="Send" />
+                <input style={{ ...submitBtn, }} onMouseEnter={() => { setSubmitBtnClicked('3px solid white'); setNameSelected('none'); setEmailSelected('none'); setMessageSelected('none'); setSubmitBtnColor('white'); setSubmitBtnbackgroundColor('var(--danger)'); }} onMouseLeave={() => { setSubmitBtnClicked('3px solid var(--danger)'); setSubmitBtnColor('var(--danger)'); setSubmitBtnbackgroundColor('rgb( 0 0 0 / 0%)');}} type="submit" value="Send" />
             </form>
         </div>
         // </div>
