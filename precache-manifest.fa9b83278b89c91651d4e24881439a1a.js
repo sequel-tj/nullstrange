@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "12623ddb2b490ba38068",
+    "revision": "70699deba738c50b84d5",
     "url": "/nullstrange/static/css/main.eaeb24a4.chunk.css"
   },
   {
-    "revision": "12623ddb2b490ba38068",
-    "url": "/nullstrange/static/js/main.b756ef54.chunk.js"
+    "revision": "70699deba738c50b84d5",
+    "url": "/nullstrange/static/js/main.4b047ce9.chunk.js"
   },
   {
     "revision": "f808f8130841dddc9fc8",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/nullstrange/static/media/email.f1125605.png"
   },
   {
-    "revision": "aa2c0e68c4184cc5e11b6dde2e320f28",
+    "revision": "70d4744b26583b3c5da1961eb7d8108a",
     "url": "/nullstrange/index.html"
   }
 ];
