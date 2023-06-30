@@ -25,7 +25,6 @@ const Navbar = () => {
     } else if (location.pathname === "/About") {
       setHome(false);
       setBeats(false);
-      console.log("x");
       setAbout(true);
       setContact(false);
     } else if (location.pathname === "/Contact") {
