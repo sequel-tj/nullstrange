@@ -1,19 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "70699deba738c50b84d5",
+    "revision": "6624737920699523ca76",
     "url": "/nullstrange/static/css/main.eaeb24a4.chunk.css"
   },
   {
-    "revision": "70699deba738c50b84d5",
-    "url": "/nullstrange/static/js/main.4b047ce9.chunk.js"
+    "revision": "6624737920699523ca76",
+    "url": "/nullstrange/static/js/main.5d589955.chunk.js"
   },
   {
     "revision": "f808f8130841dddc9fc8",
     "url": "/nullstrange/static/js/runtime~main.d1e88006.js"
   },
   {
-    "revision": "055526b33085fba7dbd5",
-    "url": "/nullstrange/static/js/2.c0627803.chunk.js"
+    "revision": "223687189a766e8fe9e5",
+    "url": "/nullstrange/static/js/2.19a65622.chunk.js"
+  },
+  {
+    "revision": "843702ef46a8bb295797c4a90ff7e430",
+    "url": "/nullstrange/static/media/bewafa.843702ef.mp3"
   },
   {
     "revision": "30928047b91e31d70f67becb686310cb",
@@ -48,7 +52,7 @@ self.__precacheManifest = [
     "url": "/nullstrange/static/media/email.f1125605.png"
   },
   {
-    "revision": "70d4744b26583b3c5da1961eb7d8108a",
+    "revision": "d5368e87915ee6a951a176fda4a582d0",
     "url": "/nullstrange/index.html"
   }
 ];
