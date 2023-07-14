@@ -87,6 +87,7 @@ const Beat = (props) => {
       <h2 style={songName}>{props.name}</h2>
       <img
         src={require("../images/play.png")}
+        alt="beat-img"
         style={image}
         onClick={onClickHandler}
         onMouseEnter={hoverin}
