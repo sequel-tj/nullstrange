@@ -26,13 +26,13 @@ const serviceContainer: React.CSSProperties = {
 const servicesHeader: React.CSSProperties = {
   width: "18rem",
   fontSize: "2rem",
-  padding: '0.3rem 0',
+  padding: "0.3rem 0",
   // fontSize: "3rem",
   background: "rgb(0,0,0,1)",
   color: "white",
   textAlign: "center",
   borderRadius: "15px",
-  boxShadow: '#000000aa 0px 0px 20px 2px',
+  boxShadow: "#000000aa 0px 0px 20px 2px",
   // boxShadow: "rgb(95 37 80 / 69%) 0px 0px 25px 0px",
   // boxShadow: '#4152bbe0 0px 0px 20px',
 };
@@ -54,8 +54,8 @@ const servicesCard: React.CSSProperties = {
   // border: "1px solid white",
   overflow: "hidden",
   // boxShadow: "#ffffff3a 5px 5px 15px",
-  boxShadow: '#000000aa 5px 5px 20px 2px',
-  borderRadius: '12px',
+  boxShadow: "#000000aa 5px 5px 20px 2px",
+  borderRadius: "12px",
 };
 
 const servicesImg: React.CSSProperties = {};
